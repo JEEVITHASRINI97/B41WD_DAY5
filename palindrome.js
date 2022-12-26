@@ -3,9 +3,9 @@
   //Anonymous :
   
   let isPalindrome = function () {
-    var myArray = ['viicc', 'racecar', 'honda', 'malayalam'];
-    var arr = myArray.filter(function (c, d) {
-      var palindrome = c.split('').reverse().join('');
+    let myArray = ['viicc', 'racecar', 'honda', 'malayalam'];
+    let arr = myArray.filter(function (c, d) {
+      let palindrome = c.split('').reverse().join('');
       if (c == palindrome) {
         console.log(myArray[d]);
       }
@@ -18,9 +18,9 @@
   //IIFE :
   
   ( function () {
-    var myArray = ['viicc', 'racecar', 'honda', 'malayalam'];
-    var arr = myArray.filter(function (c, d) {
-      var palindrome = c.split('').reverse().join('');
+    let myArray = ['viicc', 'racecar', 'honda', 'malayalam'];
+    let arr = myArray.filter(function (c, d) {
+      let palindrome = c.split('').reverse().join('');
       if (c == palindrome) {
         console.log(myArray[d]);
       }
@@ -30,9 +30,9 @@
   //OUTPUT: racecar malayalam
   //3.e Return all the palindrome in an array using arrow function
 let isPalindrome1 = function () {
-  var myArray = ['viicc', 'racecar', 'honda', 'malayalam'];
-  var arr = myArray.filter(function (c, d) {
-    var palindrome = c.split('').reverse().join('');
+  let myArray = ['viicc', 'racecar', 'honda', 'malayalam'];
+  let arr = myArray.filter(function (c, d) {
+    let palindrome = c.split('').reverse().join('');
     if (c == palindrome) {
       console.log(myArray[d]);
     }
