@@ -1,1 +1,2 @@
-# B41WD_DAY5
+# B42WD_DAY5
+basic type of function program(IIFE,annonyms,Arrow)
